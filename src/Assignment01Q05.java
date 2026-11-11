@@ -1,5 +1,5 @@
 public class Assignment01Q05 {
-    public static int findShortestPath(int[][] m, int i, int j) {
+    public static int findShortestPath(int[][] m, int i, int j) {//I am taking algorithms right now, so I just implemented BFS with a queue implemented by an array.
         if (m.length == 0) {
             return -1;
         }
